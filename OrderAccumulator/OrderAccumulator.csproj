@@ -8,15 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="bin\spec\fix\FIX40.xml" />
-    <Content Include="bin\spec\fix\FIX41.xml" />
-    <Content Include="bin\spec\fix\FIX42.xml" />
-    <Content Include="bin\spec\fix\FIX43.xml" />
-    <Content Include="bin\spec\fix\FIX44.xml" />
-    <Content Include="bin\spec\fix\FIX50.xml" />
-    <Content Include="bin\spec\fix\FIX50SP1.xml" />
-    <Content Include="bin\spec\fix\FIX50SP2.xml" />
-    <Content Include="bin\spec\fix\FIXT11.xml" />
+    <Content Include="spec\fix\FIX40.xml" />
+    <Content Include="spec\fix\FIX41.xml" />
+    <Content Include="spec\fix\FIX42.xml" />
+    <Content Include="spec\fix\FIX43.xml" />
+    <Content Include="spec\fix\FIX44.xml" />
+    <Content Include="spec\fix\FIX50.xml" />
+    <Content Include="spec\fix\FIX50SP1.xml" />
+    <Content Include="spec\fix\FIX50SP2.xml" />
+    <Content Include="spec\fix\FIXT11.xml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,6 +51,10 @@
     <None Update="tradeclient_ssl.cfg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\" />
   </ItemGroup>
 
 </Project>
